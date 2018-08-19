@@ -62,6 +62,10 @@ router.post('/', function(req, res) {
      res.send('Sucessfully posted');
 });
 
+router.get('/', function(req,res){
+  res.send('Server Test OK');
+});
+
 // more routes for our API will happen here
 
 // REGISTER OUR ROUTES -------------------------------
