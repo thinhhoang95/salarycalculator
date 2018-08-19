@@ -41,7 +41,7 @@ app.use(function(req, res, next) {
   });
   app.use(bodyParser.raw());
 
-var port = 8083;        // set our port
+  var port = process.env.PORT || 8080;        // set our port
 
 // ROUTES FOR OUR API
 // =============================================================================
